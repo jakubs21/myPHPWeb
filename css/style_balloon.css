@@ -1,0 +1,207 @@
+html{
+    height: 100%;
+    background: radial-gradient{circle,#fff,#ccc}
+}
+#container{
+    height: 600px;
+    width: 750px;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    margin: 80px auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px #009de4; 
+    -moz-box-shadow: 0px 4px 10px 0px #009de4; 
+    -webkit-box-shadow: 0px 4px 10px 0px #009de4; 
+    position: relative;
+}
+#score{
+    background-color: #c9b4b0;
+    color: #0705a8;
+    padding: 11px;
+    position: absolute;
+    left: 590px;
+    top: 40px;
+    box-shadow: 0px 4px 10px #eedb62;
+    -moz-box-shadow: 0px 4px 10px #eedb62;
+    -webkit-box-shadow: 0px 4px 10px #eedb62;
+}
+#gameScreen{
+    width: 600px;
+    height: 400px;
+    margin: 10px auto 10px auto;
+    background-color: #d5ccf9;
+    box-shadow: 0px 4px 5px #441cd2;
+    -webkit-box-shadow: 0px 4px 5px #441cd2;
+    -moz-box-shadow: 0px 4px 5px #441cd2;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+#instruction{
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+    color: #c52020;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    margin: 0px auto 20px auto;
+    text-align: center;
+    line-height: 45px;
+    border: 0;
+    box-shadow: 0px 4px 5px #16c1d4;
+    -webkit-box-shadow: 0px 4px 5px #16c1d4;
+    -moz-box-shadow: 0px 4px 5px #16c1d4;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 85px;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#box4{
+    margin-right: 0;
+}
+.box:hover, #startreset:hover{
+    background-color:#f4ea23;
+    color: #001bcc;
+    font-weight: 900;
+    box-shadow: 4px 4px 10px #d49306; 
+    -webkit-box-shadow: 4px 4px 10px #d49306; 
+    -moz-box-shadow: 4px 4px 10px #d49306; 
+}
+.box:active, #startreset:active{
+    box-shadow: 0px 0px;
+    -webkit-box-shadow: 0px 0px;
+    -moz-box-shadow: 0px 0px;
+    top: 4px;
+}
+#startreset{
+    width: 120px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#trialsleft{
+    width: 120px;
+    height: 35px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background-color: rgba( 0, 198, 9, 0.853 );
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -moz-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -webkit-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+/*    display: none;*/
+}
+#life1, #life2, #life3{
+    display: none;
+}
+#timeremaining{
+    
+    width: 155px;
+    padding: 10px;
+    position: absolute;
+    top: 395px;
+    left: 400px;
+    background-color: rgba( 0, 198, 9, 0.853 );
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -moz-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -webkit-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    display: none;
+}
+.gameoverballoon{
+    display: none;
+}
+#gameover{
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 2.2em;
+    top: 200px;
+    left: 125px;
+    z-index: 2;
+    display: none;
+}
+.balloon{
+    position: absolute;
+    display: none;
+}
+#playball1{
+    z-index: 101;
+}
+#playball2{
+    z-index: 102;
+}
+#playball3{
+    z-index: 103;
+}
+#goHome{
+    
+    width: 120px;
+    padding: 10px;
+    position: absolute;
+    top: 515px;
+    left: 40px;
+    background-color: #a0a0a0;
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -moz-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -webkit-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+}
+a:hover{
+    text-decoration: none;
+    color: #b51010;
+    font-weight: 700;        
+}
+a{
+    text-decoration: none;
+    color: #b51010;
+    font-weight: normal;        
+}

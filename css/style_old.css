@@ -1,0 +1,196 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#jakublogo{
+    height: 90px;
+    padding-bottom: 10px;
+}
+
+#container{
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgba( 207, 220, 220, 0.55 )
+}
+#header{
+    min-height: 100px;
+    height: auto;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+h1 a, h1 a:hover{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgba( 25, 30, 173, 0.644 );
+    text-decoration: none;
+    padding-left: 20px;
+}
+#searchBox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    background: -ms-linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    display: none;
+    
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgba( 0, 69, 198, 0.644 );
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+.nav{
+    border: none;
+}
+#menu{
+    height: auto;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding: 0 30px;
+    height: auto;
+    border-right: 1px solid #5d12e7;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #af0d0d;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+#menu ul li:last-child{
+    border-right: none;
+    
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00067a;
+}
+#introduction{
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    padding: 30px;
+    margin: 16px 0;
+}
+#introduction h3{
+    font-size: 45px;
+    color: rgba( 32, 19, 97, 0.814 );
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 25px;
+    color: rgba( 255, 255, 255, 0.752 );
+    text-align: justify;
+}
+.sidebar{
+    height: auto; 
+    border: 2px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 10px 30px 30px; 
+    background-color: white;
+}
+.sidebar h3{
+    color: #a72929;
+    font-size: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a72929;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+.sidebar ul{
+    padding-top: 8px; 
+}
+#leftsidebar ul li{
+    padding: 10px 0 10px 0px;
+    list-style: circle;
+}
+#rightsidebar ul li{
+    padding: 10px 0 10px 0px;
+    list-style: circle;   
+}
+.sidebar ul li a:hover,.sidebar ul li a:active{
+    text-decoration: none;
+    color: #0d9683;
+    font-weight: bold;
+    font-size: 23px;
+  
+}
+#leftsidebar{
+    float: left;
+    margin-right: 0px;
+}
+#rightsidebar{
+    float: right;
+    margin-left: 0px;
+}
+.footer a{
+    color: white;
+}
+.footer{
+    height: 75px;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 32, 19, 97, 0.814 ));
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+@media (max-width: 768px){
+    #leftsidebar{
+    float: left;
+    margin-bottom: 20px;
+}
+#rightsidebar{
+    float: right;
+    margin-bottom: 20px;
+}
+}

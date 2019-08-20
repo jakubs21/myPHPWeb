@@ -1,0 +1,14 @@
+body{
+    margin-top: 110px;
+    background: #edfab1;
+    padding: 0px 20px;
+}
+.btn{
+    margin: 5px 0px;
+    width: 150px;
+    background-color: #c10404;
+}
+h1{
+    color: #057fc0;
+    text-shadow: 2px 2px #0006b7;
+}

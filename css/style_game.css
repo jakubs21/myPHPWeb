@@ -1,0 +1,195 @@
+html{
+    height: 100%;
+    background: radial-gradient{circle,#fff,#ccc}
+}
+.contactP{
+    font-size: 20px;
+}
+#container{
+    align-content: center;
+    text-align: center;
+    height: 520px;
+    width: 650px;
+    background-color: #9DD2EA;
+    margin: 80px auto;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px #009de4; 
+    -moz-box-shadow: 0px 4px 10px 0px #009de4; 
+    -webkit-box-shadow: 0px 4px 10px 0px #009de4; 
+    position: relative;
+}
+#score{
+    background-color: #e7ee2f;
+    color: #0705a8;
+    padding: 11px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    box-shadow: 0px 4px 10px #eedb62;
+    -moz-box-shadow: 0px 4px 10px #eedb62;
+    -webkit-box-shadow: 0px 4px 10px #eedb62;
+}
+#correct{
+    background-color: #5bd515;
+    color: white;
+    top: 10px;
+    left: 250px;
+    padding: 10px 50px;
+    display: none;   
+    position: absolute;
+}
+#wrong{  
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    padding: 10px 50px;
+    background-color: #db0f0f;
+    color: white;
+    display: none;
+}
+#emptytop{
+    margin: 0px auto 0px auto;
+    width: 50px;
+    height: 70px;
+}
+#question{
+    width: 450px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5ec82;
+    box-shadow: 0px 4px 5px #441cd2;
+    -webkit-box-shadow: 0px 4px 5px #441cd2;
+    -moz-box-shadow: 0px 4px 5px #441cd2;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: cursive,sans-serif;
+}
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #1cc0d2;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px 5px #16c1d4;
+    -webkit-box-shadow: 0px 4px 5px #16c1d4;
+    -moz-box-shadow: 0px 4px 5px #16c1d4;
+}
+#instruction p{
+    display: none;
+}
+#choices{
+    height: 100px;
+    width: 450px;
+    margin: 5px auto;    
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 85px;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#box4{
+    margin-right: 0;
+}
+.box:hover, #startreset:hover{
+    background-color:#f4ea23;
+    color: #001bcc;
+    font-weight: 900;
+    box-shadow: 4px 4px 10px #d49306; 
+    -webkit-box-shadow: 4px 4px 10px #d49306; 
+    -moz-box-shadow: 4px 4px 10px #d49306; 
+}
+.box:active, #startreset:active{
+    box-shadow: 0px 0px;
+    -webkit-box-shadow: 0px 0px;
+    -moz-box-shadow: 0px 0px;
+    top: 4px;
+}
+#startreset{
+    width: 200px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#timeremaining{
+    
+    width: 155px;
+    padding: 10px;
+    position: absolute;
+    top: 395px;
+    right: 20px;
+    background-color: rgba( 0, 198, 9, 0.853 );
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -moz-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -webkit-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    display: none;
+}
+#email{
+    text-decoration: underline;
+    color: #b51010;
+}
+#container a, #container a:hover{
+    text-decoration: none;
+    color: #b51010;
+    font-weight: 700;        
+}
+#goHome{
+    
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    background-color: #a0a0a0;
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -moz-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+    -webkit-box-shadow: 0px 4px 5px rgba( 11, 213, 21, 0.839 );
+}
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#d50b0b,#62d50b);
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 2.5em;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+    display: none;
+    
+}

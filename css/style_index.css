@@ -1,0 +1,84 @@
+/*style body by adding background img and set it to cover, add font-family*/
+body{
+    padding-top: 80px;
+    /*background-image: url(wolf-moon.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: black; 
+}
+
+/*style brand image*/
+
+/*style navigation bar*/
+.navbar{
+    background-color: aqua;
+}
+/*style jumbotron padding text allign etc*/
+.jumbotron{
+    color: #f7f7f7;
+    background: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    object-position: center;
+    text-align: center;
+}
+.jumbotron .container{
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+    padding: 0px;
+    margin: 10px auto;
+}
+.jumbotron img{
+    height: 100px;
+    text-align: center;
+}
+/*style icons section using grid system*/
+.jumbotron .row p{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*style conact button*/
+.btn{
+    margin: 50px auto;
+    background: rgba( 138, 228, 113, 0.616 );
+    font-weight: bold;
+}
+.btn:hover{
+    background: rgb( 138, 228, 113 );
+    color:black;
+}
+/*style footer*/
+.footer{
+    color: aliceblue;
+    background: rgba( 153, 200, 136, 0.397 ); 
+    clear: both;
+    bottom: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*limit the width of icon section*/
+
+/*use @media to chage icon size in small devices */
+@media (max-width: 480px){
+    
+}
+/*use media to set body padding on smaler devices*/
+@media (max-width: 450px){
+    body{
+        padding-top: 115px;
+    }
+    .footer{
+        margin-top: 50px;
+        bottom: 0;
+    }
+}

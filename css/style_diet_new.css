@@ -1,0 +1,58 @@
+body{
+    margin-top: 90px;
+    background: #baf6ab;
+}
+#dayHeader{
+    text-align: center;
+}
+/*Styling buttons and left nawigation bar*/
+#leftNav{
+    text-align: center;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 33, 221, 136, 0.619 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 33, 221, 136, 0.619 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 33, 221, 136, 0.619 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 33, 221, 136, 0.619 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 33, 221, 136, 0.619 ));
+    border:  1px solid #004fb7;
+    border-radius: 10px;
+    padding: 10px;
+}
+.myBtn{
+    color: #000a5f;
+    background: linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+   background: -webkit-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+    background: -moz-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+    background: -ms-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+    margin: 5px;
+    border: 1px solid black;
+    
+}
+.active{
+    background: #1000ff;
+    color: white;
+}
+.myBtn:hover{
+    color: white;
+    background: linear-gradient(rgba( 39, 163, 231, 0.599 ),#007505);
+   background: -webkit-linear-gradient(rgba( 39, 163, 231, 0.599 ),#007505);
+    background: -o-linear-gradient(rgba( 255, 255, 255, 0.752 ),rgba( 113, 161, 212, 0.548 ));
+    background: -moz-linear-gradient(rgba( 39, 163, 231, 0.599 ),#007505);
+    background: -ms-linear-gradient(rgba( 39, 163, 231, 0.599 ),#007505);
+    font-weight: bold;
+}
+/*styling diet description place*/
+#dayInfo{
+    background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(rgba( 95, 161, 185, 0.432 ), #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    background: -ms-linear-gradient(#E4F2B9, #B7E953);
+    border:  1px solid #004fb7;
+    border-radius: 10px;
+    padding: 20px;
+}
+/*diet description headers*/
+h5{
+    color: #002293;
+}

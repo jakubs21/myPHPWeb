@@ -1,0 +1,205 @@
+body{
+    padding-top: 70px;
+}
+iframe{
+visibility: hidden;
+}
+/*background cover jumbotron with fixed height*/
+.jumbotron{
+/*    background: url(skysunset.jpeg) ;
+    background-size: 100% 100%;
+    height: auto;
+    background: url(mountain.jpg) center center;
+    background-size: cover;   
+    when we want picture to have oryginal aspectratio*/
+height: auto;
+background-color: black;
+}
+/*seting size of logo*/
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.featured{
+    color: #8cf7d1;    
+}
+.featured h1{
+   padding-top: 20px;
+}
+ .featured p{
+        font-size: 20px;
+    }
+/*style contact form*/
+.contactForm{
+    border:1px solid #1642e3;
+    border-radius: 15px;
+    background: rgba( 22, 66, 227, 0.2 );
+}
+.alert-succes{
+    border: 1px solid #01e42a;
+    color: black;
+    border-radius: 15px;
+    background: rgba( 12, 216, 29, 0.753 );
+}
+.alert-warning{
+    color: black;
+    border: 1px solid #ece10d;
+    border-radius: 15px;
+    background: rgba( 216, 206, 12, 0.9 );
+}
+/*style buttons*/
+.featured .btn-default{
+    font-weight: bold;
+    color: white;
+    background: rgba( 28, 80, 210, 0.35 );
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 5px 0px;
+}
+#checkbtn{
+    width: 200px;
+}
+.featured .btn-default:hover, #checkbtn:hover{
+   background-color: rgb( 28, 80, 210);
+}
+#homebtn{
+    font-weight: bold;
+    color: white;
+    background: rgba( 28, 80, 210, 0.35 );
+    border-radius: 10px;
+    margin-top: 0px;
+    width: 150px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 8px;
+}
+#homebtn:hover{
+   background-color: rgb( 28, 80, 210);
+}
+.trial{
+    text-align: center;
+    padding: 0px 0 0px 0;
+    color: black;
+}
+.logoiconsimg{
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+}
+.logoiconslink{
+    width: 70px;
+    height: 70px;
+}
+.trial .container a{
+    border: 0;
+    margin: 0px 10px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+/*footer styling*/
+.footer{
+    background-color:#eee;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/*styling for devices between 480px and 768px*/
+@media (min-width: 480px) and (max-width: 768px){
+    .jumbotron{
+/*        height: 500px;*/
+        margin: 0px;
+    }
+    .logoiconsimg{
+        margin: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .featured h1{
+        padding-top: 10px;
+    }
+    .featured p{
+        text-align: center;
+        font-size: 17px;
+        
+    }
+    .featured .btn{
+        margin: 5px;
+        padding: 2px;
+        font-size: 17px;
+    }
+    .featured{
+        text-align: center;
+    }
+}
+
+/*styling for devices under 480px*/
+@media (max-width: 480px) {
+    body{
+        padding-top: 70px;
+    }
+    .jumbotron{
+/*        height: 440px;*/
+        margin: 0px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .btn-default{
+        margin: 0px;
+    }
+    .featured h1{
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    .row{
+       text-align: center;
+    }
+    .featured p, .featured a{
+        font-size: 12px;
+        text-align: center;
+    }
+    .featured{
+        text-align: center;
+    }
+    .logoiconsimg{
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+    }
+     .featured .btn{
+        padding: 5px 10px;
+        margin: 5px 0px;
+    }
+    .trial h2{
+        font-size: 20px;
+    }
+    .trial .container a{
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+    
+}
+@media (max-width: 449px) {
+    body{
+        padding-top: 90px;
+    }
+    #checkbtn, .btn-default{
+    width: 120px;
+        padding: 5px 10px;
+        margin: 5px 0px;
+    }
+}
